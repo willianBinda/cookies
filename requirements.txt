@@ -1,0 +1,9 @@
+scikit-image==0.24.0
+numpy==1.26.4
+matplotlib==3.9.2
+pillow==10.4.0
+scipy==1.14.1
+opencv-python==4.10.0.84
+ultralytics==8.3.204
+albumentations==2.0.8
+icrawler==0.6.10

@@ -10,7 +10,7 @@ model.train(
     epochs=100,
     imgsz=640,
     batch=4,
-    project="yolo_chocolate",
+    project="yolo_novo_dataset",
     name="exp1",
     exist_ok=True
 )

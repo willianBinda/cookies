@@ -1,6 +1,6 @@
 import os
 
-for folder in ["dataset_cookies/labels/train", "dataset_cookies/labels/val"]:
+for folder in ["novo_dataset/cookies/labels"]:
     for filename in os.listdir(folder):
         if filename.endswith(".txt"):
             path = os.path.join(folder, filename)

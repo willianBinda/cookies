@@ -3,14 +3,14 @@ import shutil
 import random
 
 # Diretórios originais
-images_dir = "scraping/dataset_cookies/images"
-labels_dir = "scraping/dataset_cookies/labels"
+images_dir = "novo_dataset/cookies/images"
+labels_dir = "novo_dataset/cookies/labels"
 
 # Diretórios destino
-train_img_dir = "dataset_cookies/images/train"
-val_img_dir = "dataset_cookies/images/val"
-train_label_dir = "dataset_cookies/labels/train"
-val_label_dir = "dataset_cookies/labels/val"
+train_img_dir = "novo_dataset/images/train"
+val_img_dir = "novo_dataset/images/val"
+train_label_dir = "novo_dataset/labels/train"
+val_label_dir = "novo_dataset/labels/val"
 
 # Criar pastas se não existirem
 for d in [train_img_dir, val_img_dir, train_label_dir, val_label_dir]:

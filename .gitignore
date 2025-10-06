@@ -5,7 +5,7 @@ novo_dataset
 resultados
 resultados2
 resultados3
-runs
+runs/*
 venv
-yolo_chocolate
 yolov8n.pt
+input/*
